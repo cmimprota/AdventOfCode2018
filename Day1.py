@@ -1,6 +1,7 @@
 # PART 1
 with open("Day1input.txt") as f:
     input = f.readlines()
+    f.close()
 frequency = sum(map(int, input))
 print(frequency)
 
